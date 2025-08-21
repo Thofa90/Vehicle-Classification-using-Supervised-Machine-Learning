@@ -226,3 +226,8 @@ The following ROC–AUC plots show the trade-off between True Positive Rate (TPR
 - **Decision Tree** is interpretable but prone to overfitting.  
 
 👉 **Final recommendation: Use XGBoost for production deployment.**
+
+# Usage Instruction
+
+	•	Click the Colab badge (add this at the top of your README):
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/notebooks/YourNotebook.ipynb)
