@@ -2,23 +2,24 @@
 
 # 📌 Project Title
 
-Car vs Van vs Bus Classification using Machine Learning
+ Car vs Van vs Bus Classification using Machine Learning
 
 # 🎯 Goal
 
-To build and evaluate machine learning models that can accurately classify vehicles into Car, Van, or Bus categories based on structured features. Project evaluates baseline and tuned models, compares their performance, and visualizes ROC–AUC curves.
+	To build and evaluate machine learning models that can accurately classify vehicles into Car, Van, or Bus categories based on structured features. Project evaluates baseline and tuned models, compares their performance, and visualizes ROC–AUC curves.
 
 # 💼 Business Context
 
-Accurate vehicle classification is important for transportation analytics, fleet management, traffic monitoring, and insurance risk assessment. Misclassification can lead to poor decision-making in resource allocation, tolling systems, and safety regulations.
+	Accurate vehicle classification is important for transportation analytics, fleet management, traffic monitoring, and insurance risk assessment. Misclassification can lead to poor decision-making in resource allocation, tolling systems, and safety regulations.
 
 # 🌍 Real-World Impact
 
 A robust classification model can be applied in:
-	•	Smart city traffic systems for real-time vehicle detection
-	•	Insurance companies to validate claims with vehicle type checks
-	•	Logistics companies for fleet optimization
-	•	Autonomous vehicles for enhanced environmental awareness
+
+•	Smart city traffic systems for real-time vehicle detection
+•	Insurance companies to validate claims with vehicle type checks
+•	Logistics companies for fleet optimization
+•	Autonomous vehicles for enhanced environmental awareness
  
 
 
