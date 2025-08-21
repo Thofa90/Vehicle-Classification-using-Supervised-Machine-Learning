@@ -33,53 +33,53 @@ All necessary libraries are imported for EDA, preprocessing, model training, and
 
 1. Importing the necessary libraries
 
-	import pandas as pd
-	import numpy as np
+	-import pandas as pd
+	-import numpy as np
 
 2. Visualization
 
-	import matplotlib.pyplot as plt
-	import seaborn as sns
-	import warnings
-	warnings.filterwarnings('ignore')
-	from IPython.display import display
+	-import matplotlib.pyplot as plt
+	-import seaborn as sns
+	-import warnings
+	-warnings.filterwarnings('ignore')
+	-from IPython.display import display
 
-	pd.set_option('display.max_columns', None)
-	sns.set(style="whitegrid", rc={"figure.figsize": (8,5)})
+	-pd.set_option('display.max_columns', None)
+	-sns.set(style="whitegrid", rc={"figure.figsize": (8,5)})
 
 3. Preprocessing & EDA
 
-	from scipy import stats
-	from sklearn.feature_selection import f_classif, mutual_info_classif
-	from statsmodels.stats.outliers_influence import variance_inflation_factor
-	from sklearn.decomposition import PCA
-	from sklearn.preprocessing import LabelEncoder, label_binarize
-	from sklearn.preprocessing import StandardScaler, MinMaxScaler
-	from itertools import cycle
-	from imblearn.over_sampling import SMOTE
+	-from scipy import stats
+	-from sklearn.feature_selection import f_classif, mutual_info_classif
+	-from statsmodels.stats.outliers_influence import variance_inflation_factor
+	-from sklearn.decomposition import PCA
+	-from sklearn.preprocessing import LabelEncoder, label_binarize
+	-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+	-from itertools import cycle
+	-from imblearn.over_sampling import SMOTE
 	
-	from sklearn.model_selection import train_test_split
-	from sklearn.compose import ColumnTransformer
-	from sklearn.pipeline import Pipeline
-	from sklearn.impute import SimpleImputer
-	from sklearn.feature_selection import VarianceThreshold
+	-from sklearn.model_selection import train_test_split
+	-from sklearn.compose import ColumnTransformer
+	-from sklearn.pipeline import Pipeline
+	-from sklearn.impute import SimpleImputer
+	-from sklearn.feature_selection import VarianceThreshold
 
 4. Modeling
 
-	from sklearn.model_selection import cross_val_score, StratifiedKFold
-	from sklearn.model_selection import GridSearchCV
+	-from sklearn.model_selection import cross_val_score, StratifiedKFold
+	-from sklearn.model_selection import GridSearchCV
 	
-	from sklearn.linear_model import LogisticRegression
-	from sklearn.multiclass import OneVsRestClassifier
-	from sklearn.neighbors import KNeighborsClassifier
-	from sklearn.svm import SVC
-	from sklearn.tree import DecisionTreeClassifier
-	from sklearn.ensemble import RandomForestClassifier
-	from xgboost import XGBClassifier
+	-from sklearn.linear_model import LogisticRegression
+	-from sklearn.multiclass import OneVsRestClassifier
+	-from sklearn.neighbors import KNeighborsClassifier
+	-from sklearn.svm import SVC
+	-from sklearn.tree import DecisionTreeClassifier
+	-from sklearn.ensemble import RandomForestClassifier
+    -from xgboost import XGBClassifier
 
 6. For evaluation
    
-	from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix, classification_report,log_loss, auc
+	-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix, classification_report,log_loss, auc
 
 ## 🔹 Data Loading
 
