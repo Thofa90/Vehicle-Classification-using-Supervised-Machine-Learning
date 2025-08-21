@@ -229,5 +229,5 @@ The following ROC–AUC plots show the trade-off between True Positive Rate (TPR
 
 # Usage Instruction
 
-	•	Click the Colab badge (add this at the top of your README):
+	•	Click the Colab badge with uploaed dataset(dataset link is given above):
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/your-repo-name/blob/main/notebooks/YourNotebook.ipynb)
