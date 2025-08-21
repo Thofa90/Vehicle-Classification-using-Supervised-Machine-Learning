@@ -208,13 +208,12 @@ The following ROC–AUC plots show the trade-off between True Positive Rate (TPR
 
 | Logistic Regression | KNN | SVC |
 |---------------------|-----|-----|
-| ![LR](roc_lr.png) | ![KNN](roc_knn.png) | ![SVC](roc_svc.png) |
+| ![LR](image/roc_lr.png) | ![KNN](image/roc_knn.png) | ![SVC](image/roc_svc.png) |
 
 | Decision Tree | Random Forest | XGBoost |
 |---------------|---------------|---------|
-| ![DT](roc_dt.png) | ![RF](roc_rf.png) | ![XGB](roc_xgb.png) |
-
-*(Replace filenames with your actual ROC plots when saving them.)*  
+| ![DT](image/roc_dt.png) | ![RF](image/roc_rf.png) | ![XGB](image/roc_xgb.png) |
+ 
 
 ---
 
