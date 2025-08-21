@@ -1,24 +1,26 @@
 # 🚙 Car vs Van vs Bus Classification Project
 
 # 📌 Project Title
-
- Car vs Van vs Bus Classification using Machine Learning
+Car vs Van vs Bus Classification using Machine Learning
 
 # 🎯 Goal
 
-	To build and evaluate machine learning models that can accurately classify vehicles into Car, Van, or Bus categories based on structured features. Project evaluates baseline and tuned models, compares their performance, and visualizes ROC–AUC curves.
+To build and evaluate machine learning models that can accurately classify vehicles into Car, Van, or Bus categories based on structured features. Project evaluates baseline and tuned models, compares their performance, and visualizes ROC–AUC curves.
 
 # 💼 Business Context
 
-	Accurate vehicle classification is important for transportation analytics, fleet management, traffic monitoring, and insurance risk assessment. Misclassification can lead to poor decision-making in resource allocation, tolling systems, and safety regulations.
+Accurate vehicle classification is important for transportation analytics, fleet management, traffic monitoring, and insurance risk assessment. Misclassification can lead to poor decision-making in resource allocation, tolling systems, and safety regulations.
 
 # 🌍 Real-World Impact
 
 A robust classification model can be applied in:
 
 •	Smart city traffic systems for real-time vehicle detection
+
 •	Insurance companies to validate claims with vehicle type checks
+
 •	Logistics companies for fleet optimization
+
 •	Autonomous vehicles for enhanced environmental awareness
  
 
@@ -31,52 +33,53 @@ All necessary libraries are imported for EDA, preprocessing, model training, and
 
 1. Importing the necessary libraries
 
-import pandas as pd
-import numpy as np
+	import pandas as pd
+	import numpy as np
 
 2. Visualization
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-import warnings
-warnings.filterwarnings('ignore')
-from IPython.display import display
+	import matplotlib.pyplot as plt
+	import seaborn as sns
+	import warnings
+	warnings.filterwarnings('ignore')
+	from IPython.display import display
 
-pd.set_option('display.max_columns', None)
-sns.set(style="whitegrid", rc={"figure.figsize": (8,5)})
+	pd.set_option('display.max_columns', None)
+	sns.set(style="whitegrid", rc={"figure.figsize": (8,5)})
 
 3. Preprocessing & EDA
 
-from scipy import stats
-from sklearn.feature_selection import f_classif, mutual_info_classif
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import LabelEncoder, label_binarize
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from itertools import cycle
-from imblearn.over_sampling import SMOTE
-
-from sklearn.model_selection import train_test_split
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
-from sklearn.feature_selection import VarianceThreshold
+	from scipy import stats
+	from sklearn.feature_selection import f_classif, mutual_info_classif
+	from statsmodels.stats.outliers_influence import variance_inflation_factor
+	from sklearn.decomposition import PCA
+	from sklearn.preprocessing import LabelEncoder, label_binarize
+	from sklearn.preprocessing import StandardScaler, MinMaxScaler
+	from itertools import cycle
+	from imblearn.over_sampling import SMOTE
+	
+	from sklearn.model_selection import train_test_split
+	from sklearn.compose import ColumnTransformer
+	from sklearn.pipeline import Pipeline
+	from sklearn.impute import SimpleImputer
+	from sklearn.feature_selection import VarianceThreshold
 
 4. Modeling
 
-from sklearn.model_selection import cross_val_score, StratifiedKFold
-from sklearn.model_selection import GridSearchCV
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.multiclass import OneVsRestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
+	from sklearn.model_selection import cross_val_score, StratifiedKFold
+	from sklearn.model_selection import GridSearchCV
+	
+	from sklearn.linear_model import LogisticRegression
+	from sklearn.multiclass import OneVsRestClassifier
+	from sklearn.neighbors import KNeighborsClassifier
+	from sklearn.svm import SVC
+	from sklearn.tree import DecisionTreeClassifier
+	from sklearn.ensemble import RandomForestClassifier
+	from xgboost import XGBClassifier
 
 6. For evaluation
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix, classification_report,log_loss, auc
+   
+	from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix, classification_report,log_loss, auc
 
 ## 🔹 Data Loading
 
